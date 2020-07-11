@@ -7,9 +7,16 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <!-- Styles -->
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
       
     </head>
     <body>
-      
+     <div id="example" class="flex flex-col">
+     </div>
+
+     <script src="{{ asset('js/app.js') }}" defer></script>
+
+
     </body>
 </html>
