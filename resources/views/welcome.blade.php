@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Basic Accounts</title>
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+<html lang="{{ app()->getLocale() }}">
 
-        <!-- Styles -->
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-      
-    </head>
-    <body>
-     <div id="example" class="flex flex-col">
-     </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <script src="{{ asset('js/app.js') }}" defer></script>
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <title>{{ config('app.name', 'Laravel') }}</title>
 
-    </body>
+    <!-- Scripts -->
+    <script>
+        window.App = {!! json_encode([
+            'name' => config('app.name')
+        ]) !!};
+    </script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <!-- Styles -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+</head>
+
+<body class="font-sans h-full text-grey-darkest">
+    <div id="app" class="flex flex-col">
+    </div>
+</body>
+
 </html>
