@@ -1,8 +1,14 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@tailwind base;
 
-// Variables
-@import 'variables';
+@tailwind components;
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@tailwind utilities;
+
+@import './lib/nprogress';
+
+@import './_variables';
+@import './components/authnav';
+
+input:invalid {
+    box-shadow: none;
+}

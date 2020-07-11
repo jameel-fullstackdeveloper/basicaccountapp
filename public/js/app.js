@@ -34100,7 +34100,7 @@ function Footer() {
     className: "container mx-auto flex flex-col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "px-4 py-8 text-gray-700 font-light text-sm"
-  }, "\xA9", new Date().getFullYear(), "  Laravel React SPA")));
+  }, "\xA9", new Date().getFullYear(), "  Basic Account App")));
 }
 
 ;
@@ -34156,7 +34156,7 @@ function GuestNav() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "",
     className: "no-underline text-gray-700 uppercase font-thin"
-  }, "Laravel React SPA"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, "Basic Account App"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "list-reset flex pt-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "px-4 py-2"
@@ -34975,7 +34975,7 @@ function Welcome() {
     className: "flex flex-1 flex-col items-center justify-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "text-indigo text-2xl p-2 font-thin uppercase"
-  }, " Start crafting your app now!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, " Start crafting your Account app now!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/images/icons/laravel.svg",

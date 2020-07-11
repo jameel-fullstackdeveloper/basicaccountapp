@@ -8,7 +8,7 @@ function GuestNav () {
         <li className="px-2">
           <Link to=""
             className="no-underline text-gray-700 uppercase font-thin"
-          >Laravel React SPA</Link>
+          >Basic Account App</Link>
         </li>
       </ul>
 
